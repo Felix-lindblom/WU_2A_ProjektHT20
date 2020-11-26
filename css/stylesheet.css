@@ -4,5 +4,12 @@
 }
 
 #wrap{
-    
+    display: grid;
+    grid-row: 500px 150px auto;
+    grid-column: 4fr 1fr;
+    grid-template-areas: 
+    "he he"
+    "na na"
+    "mn as"    
+    ;
 }

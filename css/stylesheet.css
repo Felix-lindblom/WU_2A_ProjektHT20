@@ -1,15 +1,43 @@
 *{
     background-color: dimgray;
     color: ghostwhite;
+    padding: 0px;
+    margin: 0px;
 }
-
-#wrap{
+h1{
+    font-size: 200px;
+}
+.wrap{
     display: grid;
-    grid-row: 500px 150px auto;
+    grid-row: auto 150px auto;
     grid-column: 4fr 1fr;
     grid-template-areas: 
     "he he"
     "na na"
     "mn as"    
     ;
+}
+.topbar{
+    grid-area: he;
+    background-color: black;
+}
+
+
+#logo{
+    height: 500px;
+    display: flex;
+}
+#head-text{
+    color: orange;
+    padding-left:40px ;
+    background-color: transparent;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+
+
+}
+.nav_top{
+    grid-area: na;
 }

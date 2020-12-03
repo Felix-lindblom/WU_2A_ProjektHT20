@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
 *{
     background-color: dimgray;
     color: ghostwhite;
@@ -6,11 +8,12 @@
 }
 h1{
     font-size: 200px;
+    font-family: fondamento;
 }
 .wrap{
     display: grid;
-    grid-row: auto 150px auto;
-    grid-column: 4fr 1fr;
+    grid-row: 300px 150px auto;
+    grid-column: 6fr 1fr;
     grid-template-areas: 
     "he he"
     "na na"
@@ -20,24 +23,23 @@ h1{
 .topbar{
     grid-area: he;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 #logo{
-    height: 500px;
+    height: 300px;
+    display: flex;
     display: flex;
 }
 #head-text{
     color: orange;
     padding-left:40px ;
     background-color: transparent;
-
-    flex-direction: column;
-    justify-content: space-evenly;
-    display: flex;
-
-
 }
-.nav_top{
+#nav_top{
     grid-area: na;
+    background-color: brown;
 }

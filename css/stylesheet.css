@@ -38,15 +38,15 @@ h1{
     padding-left:40px ;
     background-color: transparent;
 }
-.nav_top{
+.nav-top{
     grid-area: na;
-    background-color: brown;
-    display: flex;
-
+   background-color: rgb(121, 61, 21);
+   display: flex;
+   flex-direction: column;
 }
-.nav_top a {
+.nav-top li a{
+    color: rgb(185, 145, 84);
     background-color: transparent;
-    color: tomato;
 }
 .home_main{
     grid-area: mn;

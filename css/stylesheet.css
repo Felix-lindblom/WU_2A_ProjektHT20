@@ -5,6 +5,11 @@
     color: ghostwhite;
     padding: 0px;
     margin: 0px;
+    font-family: fondamento;
+}
+img{
+    height: 700px;
+    width: auto;
 }
 h1{
     font-size: 200px;
@@ -14,7 +19,7 @@ h1{
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-rows: 300px 75px 1fr;
+    grid-template-rows: 25% 4% 1fr;
     grid-template-columns: 5fr 1fr;
     grid-template-areas: 
     "he he"
@@ -35,23 +40,50 @@ h1{
 }
 #fennessy-text{
     color: orange;
-    padding-left:40px ;
+    padding: left 10%; ;
     background-color: transparent;
 }
 .nav-link{
     grid-area: na;
    background-color: rgb(121, 61, 21);
-   display: flex;
-   flex-direction: column;
 }
-.nav-link li a{
-    color: rgb(185, 145, 84);
+.nav-link a{
+    color: orange;
+    background-color:  rgb(71, 36, 13);
+    text-decoration: none;
+    font-size: 200%;
+    padding: 0px 20px;
+    border-radius: 15%;
+}
+.nav-link a:hover{
+    color: rgb(226, 206, 94);
+    transition: color 1s ease;
+}
+.nav-link li{
     background-color: transparent;
+
+}
+.nav-link ul{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none ;
+    align-items: center;
+    height: 100%;
 }
 .main-text{
     grid-area: mn;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .main-as{
     grid-area: as;
-
+    background-color: rgb(46, 46, 46);
+}
+.main-as p {
+    background-color: transparent;
+    padding: 5%;
 }

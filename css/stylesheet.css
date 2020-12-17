@@ -17,7 +17,6 @@ h1{
 }
 .wrap{
     display: grid;
-    height: 100vh;
     width: 100vw;
     grid-template-rows: 25% 4% 1fr;
     grid-template-columns: 5fr 1fr;
@@ -40,7 +39,7 @@ h1{
 }
 #fennessy-text{
     color: orange;
-    padding: left 10%; ;
+    padding-left: 3%; ;
     background-color: transparent;
 }
 .nav-link{
@@ -77,6 +76,18 @@ h1{
     grid-area: mn;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 2%;
+    display: flexbox;
+    flex-direction: column;
+    align-items: baseline;
+}
+.main-text h2 {
+    padding-bottom: 1%;
+    font-size: 300%;
+    text-shadow: black 5px 5px 3px;
+}
+.main-text img{
+
 }
 
 .main-as{
@@ -85,5 +96,5 @@ h1{
 }
 .main-as p {
     background-color: transparent;
-    padding: 5%;
+    padding-top: 5%;
 }

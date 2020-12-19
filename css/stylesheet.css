@@ -6,6 +6,7 @@
     padding: 0px;
     margin: 0px;
     font-family: fondamento;
+    overflow-x: hidden;
 }
 img{
     height: 700px;
@@ -18,6 +19,7 @@ h1{
 .wrap{
     display: grid;
     width: 100vw;
+    height: 100vh;
     grid-template-rows: 25% 4% 1fr;
     grid-template-columns: 5fr 1fr;
     grid-template-areas: 
@@ -79,22 +81,23 @@ h1{
     padding-top: 2%;
     display: flexbox;
     flex-direction: column;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
 }
 .main-text h2 {
     padding-bottom: 1%;
     font-size: 300%;
     text-shadow: black 5px 5px 3px;
 }
-.main-text img{
-
+.main-text p{
+ padding: 1px;
 }
-
 .main-as{
     grid-area: as;
     background-color: rgb(46, 46, 46);
+    padding: 3% ;
 }
 .main-as p {
     background-color: transparent;
-    padding-top: 5%;
+    padding-bottom: 4%;
 }

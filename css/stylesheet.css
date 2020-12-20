@@ -16,7 +16,7 @@ h1{
     font-size: 200px;
     font-family: fondamento;
 }
-.wrap{
+.wrap-index{
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -100,4 +100,8 @@ h1{
 .main-as p {
     background-color: transparent;
     padding-bottom: 4%;
+}
+.wrap-hitta-oss{
+    height: 100vh;
+    width: 100vw;
 }
